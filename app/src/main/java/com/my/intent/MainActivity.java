@@ -22,6 +22,8 @@ public class MainActivity extends AppCompatActivity {
                 Intent i = new Intent(MainActivity.this,Main2Activity.class);
                 i.putExtra("Name",editText.getText().toString().trim());
                 startActivity(i);
+                
+                //My New Project
             }
         });
     }
