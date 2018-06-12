@@ -15,5 +15,7 @@ public class Main2Activity extends AppCompatActivity {
 
         String data = getIntent().getExtras().getString("Name");
         tv.setText(data);
+
+        //my change
     }
 }
